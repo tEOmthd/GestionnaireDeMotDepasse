@@ -648,7 +648,7 @@ public class MainWindow {
             db.updateRowInDatabase(id, updatedTitle, updatedUsername, updatedPassword, updatedDescription,
                     updatedDate);
 
-            loadTableData();;
+            loadTableData();
             dialog.dispose();
         });
 

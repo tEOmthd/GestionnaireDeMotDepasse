@@ -1,0 +1,22 @@
+# Build output
+target/
+
+# Compiled class files
+*.class
+
+# JAR files (sauf dans src/)
+*.jar
+!src/**/*.jar
+
+# Base de données SQLite locale
+*.db
+
+# macOS
+.DS_Store
+
+# IntelliJ IDEA
+.idea/
+*.iml
+
+# VSCode
+.vscode/
